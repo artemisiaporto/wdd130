@@ -245,6 +245,22 @@ footer .social img {
 .headline {
     text-align: center;
 }
+
+#background2 {
+    height:400px;
+    background-color: #e4f5fd;
+    color: #023047;
+}
+
+#background3 {
+    height:300px;
+    background-color: #e4f5fd;
+    color: #023047;
+}
+
+#backgroundextra {
+    height:50px;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
