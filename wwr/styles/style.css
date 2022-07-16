@@ -257,10 +257,20 @@ footer .social img {
     background-color: #e4f5fd;
     color: #023047;
 }
+#background4 {
+    height:250px;
+    background-color: #e4f5fd;
+    color: #023047;
+}
 
-#backgroundextra {
+#backgroundextra1 {
     height:50px;
 }
+
+#backgroundextra2 {
+    height:50px;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
