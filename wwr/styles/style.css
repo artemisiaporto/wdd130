@@ -230,6 +230,21 @@ footer .social img {
     padding-top: 15px;
 }
 
+.image1 {
+    float: left;
+}
+
+.image2 {
+    float: right;
+}
+
+.image3 {
+    float: left;
+}
+
+.headline {
+    text-align: center;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
