@@ -5,7 +5,7 @@
 }
 nav a {
     text-align: center;
-    color: #e3e3d0;
+    color: #111111;
     text-decoration: none;
 }
 #hero-msg h1, #hero-msg h4 {
@@ -24,7 +24,7 @@ body {
     background-color: #e3e3d0;
 }
 header {
-    background-color: #479b6f;
+    background-color: #6da88a;
 }
 nav a:hover {
     background-color: #e3e3d0;
@@ -40,7 +40,7 @@ nav a:hover {
     color: #4a6278;
 }
 #background {
-    background-color: #479b6f;
+    background-color: #6da88a;
 }
 .msg {
     background-color: #e3e3d0;
