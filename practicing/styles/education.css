@@ -1,0 +1,51 @@
+body {
+    background-color: palevioletred;
+}
+h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h1:hover{
+    color:black;
+}
+.citation {
+    color: white;
+    text-align: center;
+    width: 35%;
+    margin: 0 auto;
+}
+.name-reference {
+    color: white;
+    text-align: center;
+    margin: 30px auto;
+    font-size: 1.2em;
+}
+li {
+    font-weight: bold;
+    margin: 0 33%;
+    text-align: left;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img {
+    width: 15%;
+    display: block;
+    margin: 0 auto;
+}
+.main {
+    color:white;
+    text-align: center;
+    width: 30%;
+    margin: 30px auto;
+    font-size: 3em;
+}
+footer p {
+    text-align: center;
+    margin: 0 auto;
+}
+.calling {
+    text-align: center;
+    margin: 30px auto;
+    width: 25%;
+}

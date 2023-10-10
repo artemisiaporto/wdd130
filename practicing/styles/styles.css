@@ -1,11 +1,11 @@
 /*Week 02 practicing*/
-body {
+/*body {
     text-align: center;
-}
-nav {
+}*/
+/*nav {
     background-color: steelblue;
     padding: 10px;
-}
+}*/
 a {
     color: white;
     margin: 40px;
@@ -13,17 +13,17 @@ a {
 h1 {
     color: steelblue;
 }
-img {
+/*img {
     width: 800px;
     border: 4px solid steelblue;
-}
+}*/
 p {
     padding: 10px;
 }
-footer {
+/*footer {
     background-color: steelblue;
     color: white;
-}
+}*/
 
 /*Week 03 practicing*/
 .main-para {
@@ -32,5 +32,43 @@ footer {
 }
 #active {
     background-color:white;
+    color: steelblue;
+}
+
+/*Week 04 practicing*/
+img {
+    width: 80%;
+    border: 4px solid steelblue;
+    display: block;
+    margin: 0 auto;
+}
+p {
+    width: 80%;
+}
+a {
+    font-size: 1.5em;
+}
+h1 {
+    text-align: center;
+}
+nav, footer {
+    text-align: center;
+}
+main p {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+nav, footer {
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+}
+footer p {
+    font-size: 20px;
+    margin: 20px auto;
+}
+a:hover {
+    background-color: white;
     color: steelblue;
 }
