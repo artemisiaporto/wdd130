@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Montserrat:wght@300&family=Mooli&family=Nunito:wght@300&family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap');
+
 /*Week 04*/
 #content {
     max-width: 1600px;
@@ -7,6 +9,7 @@ nav a {
     text-align: center;
     color: #111111;
     text-decoration: none;
+    padding: 35px;   /*Week 05*/
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -22,6 +25,10 @@ main section {
 }
 body {
     background-color: #e3e3d0;
+    font-family: Mooli, Roboto, Open Sans; /*Week 05*/
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #6da88a;
@@ -34,6 +41,11 @@ nav a:hover {
     background-color: #90bce9;
     color: #111111;
     text-decoration: none;
+    font-family: Croissant One, Montserrat, Nunito; /*Week 05*/
+    font-size: 18px;
+    padding: 15px 30px; /*Week 05*/
+    margin-top: 50px;  /*Week 05*/
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #e3e3d0;
@@ -44,22 +56,33 @@ nav a:hover {
 }
 .msg {
     background-color: #e3e3d0;
+    line-height: 1.5em;
+    padding: 35px;  /*Week 05*/
+    margin-top: 200px;  /*Week 05*/
 }
 footer {
     background-color: #6da88a;
     color: #111111;
+    padding: 25px 50px;  /*Week 05*/
+    margin-top: 200px;  /*Week 05*/
 }
 .home-title {
     color: #4a6278;
+    font-family: Croissant One, Montserrat, Nunito;
+    font-size: 2em;  /*Week 05*/
+    margin-top: 10px;  /*Week 05*/
 }
 h4 {
     color: #4a6278;
 }
 .msg h2 {
     color: #4a6278;
+    font-family: Croissant One, Montserrat, Nunito;
 }
 .msg p {
     color: #4a6278;
+    font-size: .8em;  /*Week 05*/
+    padding-bottom: 15px;  /*Week 05*/
 }
 footer a {
     color: #111111;
@@ -74,6 +97,7 @@ footer a:hover {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;  /*Week 05*/
 }
 #hero-img {
     width: 100%;
@@ -83,4 +107,26 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
+}
+/*Week05*/
+.rivers-card h2, .camping-card h2, .rapids-card h2 {
+    font-family: Croissant One, Montserrat, Nunito;
+}
+h2 {
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #6da88a;
+}
+.mountains {
+    padding-top: 100px;
 }
