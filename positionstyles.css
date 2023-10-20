@@ -3,7 +3,7 @@
 .content1 {
   /* This is the parent of the activity 1 boxes. */
   display: grid;
-  grid-template-columns: 250px 250px;
+  grid-template-columns: 1fr 1fr;
   justify-items: center;
   gap: 20px;
 }
@@ -68,8 +68,8 @@
 .content3 {
   /* This is the parent of the activity 3 boxes. */
   display: grid;
-  grid-template-columns: 300px 300px;
-  column-gap: 100px;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 330px;
 }
 .red3 {
   width: 100%;
@@ -97,7 +97,6 @@
 .content4 {
   /* This is the parent of the activity 4 boxes. */
   height: 400px;
-  width: 700px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
