@@ -5,13 +5,13 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #274564   ;
-  --secondary-color: #6ba8e8 ;
+  --primary-color: #274564;
+  --secondary-color: #6ba8e8;
   --accent1-color: #ebe9d6;
   --accent2-color: white;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: Electrolize, Changa, Roboto ;
+  --heading-font: Electrolize, Changa, Roboto;
   --paragraph-font: Play, Monda, Lato;
 
   /* these colors below should be chosen from among your palette colors above */

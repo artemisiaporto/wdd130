@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marine Pokémon | Home</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <a id="logo_link" href="index.html">
+            <img class="logo" src="images/logo.png" alt="Marine Pokémon">
+        </a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="fishes.html">Fishes</a>
+            <a href="othermarine.html">Other Marine Animals</a>
+            <a href="contactus.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <div id="feedback"></div>
+        <form action="/my-handling-form-page" method="post">
+            <ul>
+                <li>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="user_name" />
+                </li>
+                <li>
+                    <label for="mail">E-mail:</label>
+                    <input type="email" id="mail" name="user_email" />
+                </li>
+                <li>
+                    <label for="msg">Message:</label>
+                    <textarea id="msg" name="user_message"></textarea>
+                </li>
+                <li class="button">
+                    <button type="submit">Send your message</button>
+                </li>
+            </ul>
+        </form>
+    </main>
+    <footer>
+        <p>
+            <a href="site-plan.html">Site Plan</a>
+        </p>
+        <p>
+            <a href="contactus.html">Contact Us</a>
+        </p>
+        <div class="sources">
+            <a href="https://bulbapedia.bulbagarden.net/wiki/Main_Page" target="_blank">
+                <img src="images/bulbapedia.png" alt="bulbapedia icon">
+            </a>
+            <a href="https://pokemongolive.com/?hl=en" target="_blank">
+                <img src="images/pokemon-go.png" alt="pokémon go icon">
+            </a>
+        </div>
+    </footer>
+    <script>
+        const feedbackElement = document.getElementById('feedback');
+        const formElement = document.forms[0];
+        formElement.addEventListener('submit', function(e) {
+            e.preventDefault();
+            feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for sharing this Pokémon name. We will search about it and increment to our website!';
+            feedbackElement.style.display = "block";
+            document.body.classList.toggle('moveDown');
+        });
+    </script>
+</body>
+</html>
